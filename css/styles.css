@@ -1,0 +1,243 @@
+/* External CSS */
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+h2, h3 {
+   font-family: 'Montserrat-Bold';
+   font-weight: bold;
+}
+p {
+   color: #454545;
+}
+
+/* ********************************************************************************** */
+
+/* CLASS SELECTORS*/
+
+/* Background colors and text-colos in different sections */
+.Colored-section {
+   background-color: #687377;
+}
+.White-section {
+   background-color: #fff;
+}
+.testpress-color {
+   background-color: #5D6360;
+}
+.white-text {
+   color: #F5F4F2;
+}
+
+/* Title Section */
+
+/* Navbar */
+
+.navbar {
+   margin-bottom: 4.5rem;
+   background-color: #4C565B;
+}
+.navbar-brand {
+   font-family: 'Spicy Rice', cursive;
+   font-size: 1.5rem;
+   margin-left: 25px;
+}
+.title-BingeAnime {
+   background-color: #EDAE0E;
+}
+/* CSS for links inside navbar */
+.navbar-margin {
+   font-size: 1.1rem;
+   font-family: "Montserrat-Light";
+   margin-left: 35px;
+}
+/* Specific CSS for download link inside navbar */
+.nav-dwd {
+   margin-right: 30px;
+}
+
+/* Contents inside title section below navbar */
+
+.container-fluid {
+   padding: 3% 15% 5%;
+}
+.big-heading {
+  font-family: 'Prompt', sans-serif;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+/* Download buttons */
+
+.download-btn {
+   margin: 8% 5% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+/* Title section ends here */
+
+
+/* Features Section */
+
+.featdiv {
+   padding: 5%;
+}
+.icon {
+   color: #5D6360;
+   margin: 0 1% 1rem;
+}
+.icon:hover {
+   color: #1B1C1B;
+}
+.style-h3 {
+   font-size: 1.8rem;
+}
+/* Features section ends here */
+
+
+/* Testimonial Section */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-p {
+   color: #000000;
+}
+/* Modified Image of rem for first slide */
+.testimonial-img-rem {
+  border-radius: 100%;
+  margin: 20px;
+  width: 23%;
+  height: 214px;
+}
+/* Users image */
+.testimonial-img {
+   border-radius: 100%;
+   margin: 20px;
+   width: 15%;
+   height: 150px;
+}
+
+/* Carousel Section */
+
+.carousel-item {
+    padding: 3% 15%;
+}
+/* Testimonial section ends here */
+
+
+/* Press section (Engulfed alongwith testimonial with same BG color)*/
+
+.press-img {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+
+/* CSS for header */
+.pricing-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+   padding: 3% 2%;
+}
+
+/* 'style-h3' styling for 'Fan', 'Otaku' and 'Weeb' done in features section */
+
+/* CSS to enhance price plans */
+.h2-price {
+  font-size: 2.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 20px;
+}
+/* Pricing section ends here */
+
+
+/* CTA Section */
+
+.cta-h3 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 150px 20% 30px;
+}
+.download-btn-cta {
+   margin: 0 1% 10% 1%;
+}
+/* CTA Section ends here */
+
+
+/* ***************************************Class Selectors ends******************************************* */
+
+/*ID SELECTORS*/
+
+
+#title {
+   text-align: left;
+}
+#features {
+   padding: 7% 13%;
+   position: relative;
+}
+#press {
+   padding-bottom: 3%;
+}
+#pricing {
+   padding: 100px;
+}
+#cta {
+   padding-bottom: 20px;
+}
+#footer {
+   padding: 80px 0 20px;
+}
+
+/* ***************************************ID Selectors ends******************************************* */
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+   .navbar-margin {
+      margin-left: 40px;
+   }
+   .container-fluid {
+      text-align: center;
+   }
+   .title-img {
+      position: static;
+      transform: rotate(0deg);
+      margin-top: 20px;
+      width: 70%;
+   }
+   .testimonial-img-rem {
+      width: 40%;
+   }
+   .testimonial-img {
+      width: 30%;
+      height: 150px;
+   }
+   .para-feats-mob {
+      margin: 20px 0 30px;
+   }
+   .cta-h3 {
+      padding: 150px 10% 30px;
+   }
+   .download-btn-cta {
+      margin-bottom: 100px;
+   }
+}
+
+/* ***************************************Media Query ends******************************************* */
