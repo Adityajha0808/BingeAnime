@@ -1,3 +1,3 @@
 # BA
 
-Static website done using Bootstrap CSS library.
+Static website done using Bootstrap library.
