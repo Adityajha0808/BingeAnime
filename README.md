@@ -1,2 +1,3 @@
 # BA
-BingeAnime website
+
+Static website done using Bootstrap CSS library.
